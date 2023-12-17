@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Javascript Image Slider</title>
+        <link rel="stylesheet" href="style.css">
+		
+        
+	</head>
+	<body>
+		<header>
+			<h1>HORROR ATLAS</h1>
+			<H2>\m/ HORROR CHARACTERS' GALLERY \m/</H2>
+		</header>
+		<script src="js.js" defer></script>
+
+		<div class="slider">
+			<div id="img-box">
+				<img src="./images/a.jpeg" class="slider-img" alt = "Jason Voorhees">
+				<img src="./images/b.jpeg" class ='slider-img2' alt = "Freddy Krueger">
+				<img src="./images/c.jpg" class = 'slider-img3' alt = "Michael Myers">
+                
+			</div>
+			<div id ="buttons">
+			<button class="btn" onclick="prev()">Prev (arrow left)</button>
+			<button class="btn" onclick="next()">Next (arrow right)</button>
+		</div>
+		</div>
+		<div id = "ShowImage">
+          <img id="displayImage" src="./images/a.jpeg">
+	</div>
+		
+
+	</body>
+</html>
